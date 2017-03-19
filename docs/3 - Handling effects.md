@@ -184,7 +184,7 @@ Note how there was no need to setup callbacks or anything of that nature. Using 
 
 Any type that satisfies a `MonadAff` constraint also satisfies `MonadEff`, so using `Aff` as the base monad for a component allows `liftEff` and `liftAff` to be used together freely. The effect row will need to contain both sets of effects, but other than that no special handling is required.
 
-Let's take a look at [running a component](4 - Running a component.md) to produce a UI next.
+Let's take a look at [running a component](4 - Running a component.md "Running a component") to produce a UI next.
 
 [purescript-affjax]: https://pursuit.purescript.org/packages/purescript-affjax "purescript-affjax"
 
